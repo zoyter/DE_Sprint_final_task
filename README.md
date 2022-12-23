@@ -64,7 +64,7 @@ ALTER TABLE IF EXISTS public."raw_data"
 
 3.1 Копируем на сервер файл с сырыми данными
 
-```bash
+```shell
 scp yellow_tripdata_2020-01.csv user1@192.168.3.165:/home/user1
 ```
 
@@ -86,7 +86,7 @@ copy raw_data2 from '/home/yellow_tripdata_2020-01_NEW.csv' DELIMITER ',' csv he
 
 3.3.1 В bash считаем строки в файле
 
-```bash
+```shell
 wc -l yellow_tripdata_2020-01.csv
 ```
     | результат вместе с заголовком:
