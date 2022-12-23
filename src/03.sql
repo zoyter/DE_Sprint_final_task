@@ -1,0 +1,1 @@
+copy raw_data2 from '/home/yellow_tripdata_2020-01_NEW.csv' DELIMITER ',' csv header;
