@@ -75,7 +75,7 @@ scp yellow_tripdata_2020-01.csv user1@192.168.3.165:/home/user1
 3.2 Импортируем скопированные сырые данные в БД
 ```sql
 # теперь импортируем
-copy raw_data from '/home/yellow_tripdata_2020-01.csv' csv header;
+-- copy raw_data from '/home/yellow_tripdata_2020-01.csv' csv header;
 copy raw_data2 from '/home/yellow_tripdata_2020-01_NEW.csv' DELIMITER ',' csv header;
 ```
 
